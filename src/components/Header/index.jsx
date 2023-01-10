@@ -8,9 +8,9 @@ import { ListStyleNone, RowStyled } from './styles';
 
 const Header = () => (
     <header>
-        <Container className="d-none d-lg-flex justify-content-center pt-3">
+        <Container className="d-none d-lg-flex pt-3">
             <RowStyled>
-                <Col lg={4} xl={4}>
+                <Col lg={4}>
                     <h1>
                         <Link
                             to="/"
@@ -20,7 +20,7 @@ const Header = () => (
                         </Link>
                     </h1>
                 </Col>
-                <Col lg={6} xl={6}>
+                <Col lg={6}>
                     <nav className="d-flex justify-content-center">
                         <ListStyleNone>
                             <li>
@@ -74,7 +74,7 @@ const Header = () => (
                         </ListStyleNone>
                     </nav>
                 </Col>
-                <Col lg={2} xl={2}>
+                <Col lg={2}>
                     <Link
                         to="/cart"
                         className="text-decoration-none text-reset d-flex justify-content-end"

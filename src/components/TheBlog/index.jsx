@@ -10,7 +10,7 @@ const TheBlog = () => (
         <Maintitle title="The Blog" />
         <Container className="py-4">
             <Row>
-                <Col xs={12} md={4}>
+                <Col xs={12} lg={4}>
                     <BlogCard
                         title="Beauty With Organic Products"
                         date="February 05, 2017"
@@ -22,7 +22,7 @@ const TheBlog = () => (
                         directioncolumn="column"
                     />
                 </Col>
-                <Col xs={12} md={4}>
+                <Col xs={12} lg={4}>
                     <BlogCard
                         title="Green Vegetables Are Good For Healthy"
                         date="January 30, 2017"
@@ -34,7 +34,7 @@ const TheBlog = () => (
                         directioncolumn="column-reverse"
                     />
                 </Col>
-                <Col xs={12} md={4}>
+                <Col xs={12} lg={4}>
                     <BlogCard
                         title="Refreshing Green Smoothie Recipe"
                         date="January 20, 2017"

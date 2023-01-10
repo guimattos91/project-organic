@@ -16,7 +16,7 @@ const MainBlog = () => (
     <main>
         <Container>
             <Row className="pt-5">
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Beauty With Organic Products"
                         date="February 05, 2017"
@@ -28,7 +28,7 @@ const MainBlog = () => (
                         directioncolumn="column"
                     />
                 </Col>
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Green Vegetables Are Good For Healthy"
                         date="January 30, 2017"
@@ -40,7 +40,7 @@ const MainBlog = () => (
                         directioncolumn="column-reverse"
                     />
                 </Col>
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Refreshing Green Smoothie Recipe"
                         date="January 20, 2017"
@@ -52,7 +52,7 @@ const MainBlog = () => (
                         directioncolumn="column"
                     />
                 </Col>
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Beauty With Organic Products"
                         date="February 05, 2017"
@@ -64,7 +64,7 @@ const MainBlog = () => (
                         directioncolumn="column-reverse"
                     />
                 </Col>
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Green Vegetables Are Good For Healthy"
                         date="January 30, 2017"
@@ -76,7 +76,7 @@ const MainBlog = () => (
                         directioncolumn="column"
                     />
                 </Col>
-                <Col xs={12} md={4} className="py-4 p-md-3">
+                <Col xs={12} lg={4} className="py-4 p-md-3">
                     <BlogCard
                         title="Refreshing Green Smoothie Recipe"
                         date="January 20, 2017"

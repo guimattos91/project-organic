@@ -16,8 +16,8 @@ export const Cart = styled.div`
     text-decoration: none;
 `;
 export const RowStyled = styled(Row)`
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `;

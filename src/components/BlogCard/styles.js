@@ -29,7 +29,7 @@ export const CardBlog = styled.div`
     /* @media (max-width: 768px) {
     flex-direction: column;
   } */
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
         flex-direction: ${props => props.direction.row};
         margin-bottom: 1.5rem;
     }
