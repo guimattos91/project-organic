@@ -12,7 +12,6 @@ export const DivShopSorting = styled.div`
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e4e4e4;
-    padding-bottom: 2.5rem;
     p {
         margin: 0;
         padding: 0;
@@ -36,4 +35,5 @@ export const PageNumbers = styled.div`
 export const OptionStyle = styled.select`
     border-style: none;
     background-color: transparent;
+    border: 1px solid #e4e4e4;
 `;

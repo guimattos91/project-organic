@@ -3,7 +3,7 @@ import InputMask from 'react-input-mask';
 import { ButtonMail } from './styles';
 
 const InputContact = () => (
-    <Row className="py-5">
+    <Row className="py-3">
         <Col xs={12} className="py-2">
             <textarea
                 className="form-control"

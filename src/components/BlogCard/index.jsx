@@ -1,6 +1,12 @@
 import { Ratio } from 'react-bootstrap';
 import { FaRegComment } from 'react-icons/fa';
-import { CardBackground, TitleH3, DateComment, CardBlog } from './styles';
+import {
+    CardBackground,
+    TitleH3,
+    DateComment,
+    CardBlog,
+    DateCommentIntern,
+} from './styles';
 
 const BlogCard = ({
     image,
@@ -36,12 +42,12 @@ const BlogCard = ({
                 <div className="pt-2">
                     <TitleH3>{title}</TitleH3>
                 </div>
-                <DateComment className="d-flex justify-content-between py-2">
+                <DateComment className="py-2">
                     <p>{date}</p>
-                    <DateComment className="d-flex">
-                        <p>{comment}</p>
-                        <FaRegComment color="#999" />
-                    </DateComment>
+                    <DateCommentIntern>
+                        <p className="m-0">{comment}</p>
+                        <FaRegComment color="#999" size={13} />
+                    </DateCommentIntern>
                 </DateComment>
                 <p className="pt-3">{description}</p>
             </CardBackground>

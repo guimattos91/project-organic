@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const CardBackground = styled.div`
     background-color: #d2ffea;
     padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const CardImage = styled.img`

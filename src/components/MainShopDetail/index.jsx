@@ -54,52 +54,16 @@ const MainShopDetail = () => (
 
             <Row className=" pt-3">
                 <Col xs={12} sm={6} md={3}>
-                    <Link
-                        to="/produto-selecionado"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Salad"
-                            description="$3.20"
-                            image={Salad}
-                        />
-                    </Link>
+                    <ShopCard title="Salad" description="$3.20" image={Salad} />
                 </Col>
                 <Col xs={12} sm={6} md={3}>
-                    <Link
-                        to="/produto-selecionado"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Onion"
-                            description="$3.20"
-                            image={Onion}
-                        />
-                    </Link>
+                    <ShopCard title="Onion" description="$3.20" image={Onion} />
                 </Col>
                 <Col xs={12} sm={6} md={3}>
-                    <Link
-                        to="/produto-selecionado"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Bean"
-                            description="$3.50"
-                            image={Bean}
-                        />
-                    </Link>
+                    <ShopCard title="Bean" description="$3.50" image={Bean} />
                 </Col>
                 <Col xs={12} sm={6} md={3}>
-                    <Link
-                        to="/produto-selecionado"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Lemon"
-                            description="$1.08"
-                            image={Lemon}
-                        />
-                    </Link>
+                    <ShopCard title="Lemon" description="$1.08" image={Lemon} />
                 </Col>
             </Row>
         </Container>

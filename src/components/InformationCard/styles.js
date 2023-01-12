@@ -9,6 +9,7 @@ export const PriceFont = styled.p`
     color: #666;
     text-align: center;
     font-weight: 700;
+    margin: 0;
     padding-bottom: 2rem;
     padding-top: 1rem;
 
@@ -19,9 +20,10 @@ export const PriceFont = styled.p`
 
 export const BorderProduct = styled.div`
     border: 1px solid #97ae76;
-    margin: 2rem 1rem 2rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     i {
         color: #97ae76;
@@ -32,7 +34,6 @@ export const BorderProduct = styled.div`
 
     :hover {
         background-color: #97ae76;
-        margin: 2rem 1rem 2rem 1rem;
         display: flex;
         flex-direction: column;
 
@@ -42,5 +43,9 @@ export const BorderProduct = styled.div`
             font-size: 36pt;
             padding-top: 2rem;
         }
+    }
+
+    @media (max-width: 992px) {
+        height: 195;
     }
 `;

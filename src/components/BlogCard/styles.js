@@ -17,8 +17,26 @@ export const TitleH3 = styled.h3`
 `;
 
 export const DateComment = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     & > p {
         color: #999;
+        margin: 0;
+        padding: 0;
+    }
+`;
+
+export const DateCommentIntern = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > p {
+        color: #999;
+        margin: 0;
+        padding: 0;
     }
 `;
 export const CardBlog = styled.div`

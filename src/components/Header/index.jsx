@@ -63,14 +63,6 @@ const Header = () => (
                                     CONTACT
                                 </Link>
                             </li>
-                            <li>
-                                <Link
-                                    to="/"
-                                    className="text-decoration-none px-3 text-reset"
-                                >
-                                    FEATURE
-                                </Link>
-                            </li>
                         </ListStyleNone>
                     </nav>
                 </Col>

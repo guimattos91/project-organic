@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import BgBackground from '../../assets/fotosabout/bgbanner.jpg';
+import ImageAbout01 from '../../assets/fotosabout/01.jpg';
+import ImageAbout02 from '../../assets/fotosabout/02.jpg';
 
 export const FontH2 = styled.h2`
     font-family: 'Playfair Display', serif;
@@ -25,6 +27,31 @@ export const DivHappyClients = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+`;
+export const DivColumn = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+`;
+export const DivText = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    align-items: center;
+    text-align: start;
     padding: 2rem 0rem 2rem 0rem;
 
     @media (max-width: 768px) {
@@ -64,4 +91,27 @@ export const BannerContainer = styled.div`
     color: white;
     flex: flex;
     justify-content: space-between;
+    width: 100vw;
+`;
+export const ImageContainer01 = styled.div`
+    background: url(${ImageAbout01});
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+    flex: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+`;
+export const ImageContainer02 = styled.div`
+    background: url(${ImageAbout02});
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+    flex: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 `;

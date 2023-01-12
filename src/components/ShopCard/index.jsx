@@ -1,15 +1,22 @@
+import { Link } from 'react-router-dom';
 import { CardBackground, TitleH2, CardImage, PStyled } from './styles';
 
 const ShopCard = ({ image, title, description }) => (
     <div className="py-4">
         <div>
-            <CardImage src={image} alt={title} />
+            <Link to="/product" className="text-decoration-none text-reset">
+                <CardImage src={image} alt={title} />
+            </Link>
         </div>
-        <CardBackground className="d-flex flex-column justify-content-center align-items-center">
+        <CardBackground>
             <div className="pt-2">
-                <TitleH2>{title}</TitleH2>
+                <Link to="/product" className="text-decoration-none text-reset">
+                    <TitleH2>{title}</TitleH2>
+                </Link>
             </div>
-            <PStyled>{description}</PStyled>
+            <Link to="/product" className="text-decoration-none text-reset">
+                <PStyled>{description}</PStyled>
+            </Link>
         </CardBackground>
     </div>
 );

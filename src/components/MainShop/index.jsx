@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import {
     MdOutlineKeyboardArrowLeft,
     MdOutlineKeyboardArrowRight,
@@ -21,13 +20,17 @@ import Cucumber from '../../assets/shopproduct/012.jpg';
 
 const MainShop = () => (
     <main>
-        <DivShopSorting className="pt-5">
+        <DivShopSorting className="py-4">
             <Container>
-                <Row className="d-flex justify-content-between">
-                    <Col>
+                <Row className="d-flex justify-content-center align-items-center">
+                    <Col xs={12} sm={6} className="text-center text-sm-start">
                         <p>Showing 1 - 12 of 30 results</p>
                     </Col>
-                    <Col className="d-flex justify-content-end">
+                    <Col
+                        xs={12}
+                        sm={6}
+                        className="d-flex justify-content-center justify-content-sm-end pt-3 p-sm-0"
+                    >
                         <OptionStyle name="Sorting" id="shop" form="formshop">
                             <option value="menu_order" selected="selected">
                                 Default sorting
@@ -53,150 +56,62 @@ const MainShop = () => (
         <Container>
             <Row className="pt-3">
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Salad"
-                            description="$3.20"
-                            image={Salad}
-                        />
-                    </Link>
+                    <ShopCard title="Salad" description="$3.20" image={Salad} />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Onion"
-                            description="$3.20"
-                            image={Onion}
-                        />
-                    </Link>
+                    <ShopCard title="Onion" description="$3.20" image={Onion} />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Bean"
-                            description="$3.50"
-                            image={Bean}
-                        />
-                    </Link>
+                    <ShopCard title="Bean" description="$3.50" image={Bean} />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Lemon"
-                            description="$1.08"
-                            image={Lemon}
-                        />
-                    </Link>
+                    <ShopCard title="Lemon" description="$1.08" image={Lemon} />
                 </Col>
 
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Spinach"
-                            description="$2.26"
-                            image={Spinach}
-                        />
-                    </Link>
+                    <ShopCard
+                        title="Spinach"
+                        description="$2.26"
+                        image={Spinach}
+                    />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Apple"
-                            description="$4.05"
-                            image={Apple}
-                        />
-                    </Link>
+                    <ShopCard title="Apple" description="$4.05" image={Apple} />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Broccoli"
-                            description="$3.88"
-                            image={Broccoli}
-                        />
-                    </Link>
+                    <ShopCard
+                        title="Broccoli"
+                        description="$3.88"
+                        image={Broccoli}
+                    />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Basil"
-                            description="$1.55"
-                            image={Basil}
-                        />
-                    </Link>
+                    <ShopCard title="Basil" description="$1.55" image={Basil} />
                 </Col>
 
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Pear"
-                            description="$4.80"
-                            image={Pear}
-                        />
-                    </Link>
+                    <ShopCard title="Pear" description="$4.80" image={Pear} />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Tomato"
-                            description="$2.32"
-                            image={Tomato}
-                        />
-                    </Link>
+                    <ShopCard
+                        title="Tomato"
+                        description="$2.32"
+                        image={Tomato}
+                    />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Bittermelon"
-                            description="$5.20"
-                            image={Bittermelon}
-                        />
-                    </Link>
+                    <ShopCard
+                        title="Bittermelon"
+                        description="$5.20"
+                        image={Bittermelon}
+                    />
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={3}>
-                    <Link
-                        to="/product"
-                        className="text-decoration-none px-3 text-reset"
-                    >
-                        <ShopCard
-                            title="Cucumber"
-                            description="$3.45"
-                            image={Cucumber}
-                        />
-                    </Link>
+                    <ShopCard
+                        title="Cucumber"
+                        description="$3.45"
+                        image={Cucumber}
+                    />
                 </Col>
             </Row>
             <PageNumbers className="d-flex align-items-center py-5">

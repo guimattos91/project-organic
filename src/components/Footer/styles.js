@@ -70,6 +70,7 @@ export const InputEmail = styled.input`
 export const BgFooterPayment = styled.div`
     background-color: rgb(102, 102, 102);
     color: white;
+    padding: 1rem 0;
 `;
 
 export const BorderGray = styled.div`

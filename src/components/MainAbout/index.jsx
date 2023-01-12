@@ -9,6 +9,8 @@ import {
     DivHappyClients,
     TextStyled,
     TextStyledNumber,
+    ImageContainer01,
+    ImageContainer02,
 } from './styles';
 import ImageAbout01 from '../../assets/fotosabout/01.jpg';
 import ImageAbout02 from '../../assets/fotosabout/02.jpg';
@@ -22,17 +24,22 @@ const MainAbout = () => (
     <main className="w-100">
         <Container>
             <Row className="py-5 g-0">
-                <Col xs={12} md={6}>
-                    <div className="d-flex justify-content-end">
+                <Col xs={12} md={6} className="d-none d-md-flex">
+                    <ImageContainer01>
+                        <div />
+                    </ImageContainer01>
+                </Col>
+                <Col xs={12} md={6} className="d-flex d-md-none">
+                    <div className="d-flex justify-content-end pb-4">
                         <img
                             src={ImageAbout01}
-                            alt="ImageAbout01"
+                            alt="Who we are"
                             className="img-fluid"
                         />
                     </div>
                 </Col>
                 <Col xs={12} md={6} className="ps-3">
-                    <FontH2 className="pt-2"> Who We Are </FontH2>
+                    <FontH2 className="pt-2 p-sm-0"> Who We Are </FontH2>
                     <GreenLines className="my-4" />
                     <PStyled>
                         We are a manufacturing base of organic food produced on
@@ -52,9 +59,20 @@ const MainAbout = () => (
                         pulvinar.
                     </PStyled>
                 </Col>
+                <Col xs={12} md={6} className="d-flex d-md-none">
+                    <div className="d-flex justify-content-end py-4">
+                        <img
+                            src={ImageAbout02}
+                            alt="What we do"
+                            className="img-fluid"
+                        />
+                    </div>
+                </Col>
                 <Col xs={12} md={6} className="pe-3">
                     <div className="d-flex flex-column align-items-end">
-                        <FontH2Left className="pt-5"> What We Do </FontH2Left>
+                        <FontH2Left className="pt-5 pt-sm-3">
+                            What We Do
+                        </FontH2Left>
                         <GreenLines className="my-4" />
                         <PStyledLeft>
                             We provide all kinds of organic products. Produced
@@ -76,16 +94,14 @@ const MainAbout = () => (
                         </PStyledLeft>
                     </div>
                 </Col>
-                <Col xs={12} md={6}>
-                    <img
-                        src={ImageAbout02}
-                        alt="ImageAbout02"
-                        className="img-fluid"
-                    />
+                <Col xs={12} md={6} className="d-none d-md-flex">
+                    <ImageContainer02>
+                        <div />
+                    </ImageContainer02>
                 </Col>
             </Row>
         </Container>
-        <BannerContainer className="py-5">
+        <BannerContainer className="py-5 w-100">
             <Container>
                 <Row>
                     <Col xs={12} md={6} lg={3}>
@@ -116,29 +132,31 @@ const MainAbout = () => (
             </Container>
         </BannerContainer>
         <Maintitle title="Our Team" />
-        <Row>
-            <Col xs={12} md={4}>
-                <CircleBannerHome
-                    titleH3="Billy Ray"
-                    image={BillyRay}
-                    description="Leader"
-                />
-            </Col>
-            <Col xs={12} md={4}>
-                <CircleBannerHome
-                    titleH3="Danielle Reed"
-                    image={DanielleReed}
-                    description="Farmer"
-                />
-            </Col>
-            <Col xs={12} md={4}>
-                <CircleBannerHome
-                    titleH3="PeterCastro"
-                    image={PeterCastro}
-                    description="Farmer"
-                />
-            </Col>
-        </Row>
+        <Container>
+            <Row>
+                <Col xs={12} md={4}>
+                    <CircleBannerHome
+                        titleH3="Billy Ray"
+                        image={BillyRay}
+                        description="Leader"
+                    />
+                </Col>
+                <Col xs={12} md={4}>
+                    <CircleBannerHome
+                        titleH3="Danielle Reed"
+                        image={DanielleReed}
+                        description="Farmer"
+                    />
+                </Col>
+                <Col xs={12} md={4}>
+                    <CircleBannerHome
+                        titleH3="PeterCastro"
+                        image={PeterCastro}
+                        description="Farmer"
+                    />
+                </Col>
+            </Row>
+        </Container>
     </main>
 );
 

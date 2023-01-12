@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { DivMenuStyled, UlFooterStyle } from './styles';
+import { DivMenuStyled, StyledH2, UlFooterStyle } from './styles';
 
 const MenuMobile = () => (
     <DivMenuStyled
@@ -9,7 +9,7 @@ const MenuMobile = () => (
         aria-labelledby="offcanvasExampleLabel"
     >
         <div className="offcanvas-header">
-            <h2>Menu</h2>
+            <StyledH2>Menu</StyledH2>
             <button
                 type="button"
                 className="btn-close"
@@ -58,14 +58,6 @@ const MenuMobile = () => (
                             className="text-decoration-none px-3 text-reset"
                         >
                             CONTACT
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="/"
-                            className="text-decoration-none px-3 text-reset"
-                        >
-                            FEATURE
                         </Link>
                     </li>
                 </UlFooterStyle>
