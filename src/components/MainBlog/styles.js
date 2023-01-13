@@ -27,7 +27,7 @@ export const PageNumbers = styled.div`
     color: rgb(102, 102, 102);
     flex: flex;
     justify-content: end;
-
+    align-items: center;
     p {
         margin: 0;
         padding: 0;
