@@ -1,5 +1,4 @@
 import { Ratio } from 'react-bootstrap';
-import { TbMessageCircle2 } from 'react-icons/tb';
 import {
     CardBackground,
     TitleH3,
@@ -45,11 +44,9 @@ const BlogCard = ({
                 <DateComment className="py-2">
                     <p>{date}</p>
                     <DateCommentIntern>
-                        <p className="m-0">{comment}</p>
-                        <TbMessageCircle2
-                            className="ms-1 d-flex align-items-center"
-                            color="#999"
-                        />
+                        <p className="m-0">
+                            {comment} <i className="fa-regular fa-comment" />
+                        </p>
                     </DateCommentIntern>
                 </DateComment>
                 <p className="pt-3">{description}</p>

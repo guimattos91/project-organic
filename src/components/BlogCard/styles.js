@@ -30,6 +30,7 @@ export const DateComment = styled.div`
 
 export const DateCommentIntern = styled.div`
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     & > p {
