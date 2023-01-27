@@ -30,13 +30,10 @@ export const DateComment = styled.div`
 
 export const DateCommentIntern = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    margin: 0;
+    padding: 0;
     & > p {
         color: #999;
-        margin: 0;
-        padding: 0;
     }
 `;
 export const CardBlog = styled.div`

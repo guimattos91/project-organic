@@ -7,7 +7,7 @@ import bgbackground from '../../assets/backgroundImages/shop.jpg';
 
 const Products = () => {
     useEffect(() => {
-        document.title = 'Organic | Shop';
+        document.title = 'Shop | Organic';
     }, []);
 
     return (

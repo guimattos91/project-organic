@@ -7,7 +7,7 @@ import MainContact from '../../components/MainContact';
 
 const Contact = () => {
     useEffect(() => {
-        document.title = 'Organic | Contact';
+        document.title = 'Contact | Organic';
     }, []);
 
     return (

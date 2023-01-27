@@ -7,7 +7,7 @@ import MainCart from '../../components/MainCart';
 
 const Cart = () => {
     useEffect(() => {
-        document.title = 'Organic | Cart';
+        document.title = 'Cart | Organic';
     }, []);
     return (
         <>

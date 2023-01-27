@@ -7,7 +7,7 @@ import bgbackground from '../../assets/backgroundImages/about.jpg';
 
 const About = () => {
     useEffect(() => {
-        document.title = 'Organic | About Us';
+        document.title = 'About Us | Organic';
     }, []);
 
     return (

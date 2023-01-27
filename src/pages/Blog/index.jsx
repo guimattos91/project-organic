@@ -7,7 +7,7 @@ import bgbackground from '../../assets/backgroundImages/blog.jpg';
 
 const Blog = () => {
     useEffect(() => {
-        document.title = 'Organic | Blog';
+        document.title = 'Blog | Organic';
     }, []);
     return (
         <>
